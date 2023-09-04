@@ -9,5 +9,6 @@ document.body.appendChild(h1);
 document.body.appendChild(input);
 
 input.addEventListener('change', function() {
-    console.log(input.value)
+    // console.log(input.value)
+    h1.innerText = input.value
 })
